@@ -7,12 +7,12 @@
 
   function calcular_total( $cantidad ){
 
-    echo $cantidad * 1.16;
+    return $cantidad * 1.16;
 
   }
 
 
-  calcular_total(200);
+  echo calcular_total(200);
 
 
 ?> 
